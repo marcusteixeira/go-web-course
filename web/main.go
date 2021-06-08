@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/urfave/negroni"
-	"github.com/marcusteixeira/go-course-web/core/beer"
+	"github.com/marcusteixeira/go-web-course/core/beer"
 	"github.com/gorilla/mux"
 	_ "github.com/mattn/go-sqlite3"
 )
