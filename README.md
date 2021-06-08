@@ -10,3 +10,7 @@ Conteúdo da disciplina Desenvolvimento Web Com Go
 ### Ponteiros
 
 - <https://www.youtube.com/watch?v=Ip1VpLxNOvQ>
+
+## Bibliotecas
+
+- <https://github.com/jmoiron/sqlx>
