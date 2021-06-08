@@ -118,10 +118,6 @@ func (s *Service) Update(b *Beer) error {
 }
 
 func (s *Service) Remove(ID int64) error {
-	return nil
-}
-
-func (s *Service) Remove(ID int64) error {
 	if ID == 0 {
 		//podemos também retornar um erro de aplicação
 		//que criamos para definir uma condição de erro, como um possível update sem Where

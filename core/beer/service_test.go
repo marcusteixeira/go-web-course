@@ -11,7 +11,7 @@ import (
 func TestStore(t *testing.T) {
 	b := &beer.Beer{
 		ID:    1,
-		Name:  "Heineken",
+		Name:  "Skol",
 		Type:  beer.TypeLager,
 		Style: beer.StylePale,
 	}
