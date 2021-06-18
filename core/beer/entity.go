@@ -3,18 +3,18 @@ package beer
 // Usar em maiusculo caso seja acessado por outros pacotes, minusculo somente dentro do pacote.
 // tags json definem como os dados vão ser transformados em JSON
 type Beer struct {
-	ID int64 `json:"id"`
-	Name string `json:"name"`
-	Type BeerType `json:"type"`
+	ID    int64     `json:"id"`
+	Name  string    `json:"name"`
+	Type  BeerType  `json:"type"`
 	Style BeerStyle `json:"style"`
 }
 
 type BeerType int
 
 const (
-	TypeAle = 1
+	TypeAle   = 1
 	TypeLager = 2
-	TypeMalt = 3
+	TypeMalt  = 3
 	TypeStout = 4
 )
 
@@ -36,7 +36,7 @@ type BeerStyle int
 
 //usando desta forma o compilador vai automaticamente definir os ids sequencialmente
 const (
-	StyleAmber = iota + 1 // sempre adicione no final, para não ocasionar problemas com ID e coisas do tipo. 
+	StyleAmber = iota + 1 // sempre adicione no final, para não ocasionar problemas com ID e coisas do tipo.
 	StyleBlonde
 	StyleBrown
 	StyleCream

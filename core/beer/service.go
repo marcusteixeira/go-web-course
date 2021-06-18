@@ -1,4 +1,4 @@
-package beer 
+package beer
 
 import (
 	"database/sql"
@@ -17,7 +17,7 @@ type UseCase interface {
 	Remove(ID int64) error
 }
 
-type Service struct{
+type Service struct {
 	DB *sql.DB
 }
 
@@ -50,7 +50,6 @@ func (s *Service) GetAll() ([]*Beer, error) {
 	}
 	return result, nil
 }
-
 
 func (s *Service) Get(ID int64) (*Beer, error) {
 	//b é um tipo Beer
