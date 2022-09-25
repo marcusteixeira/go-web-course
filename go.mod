@@ -1,6 +1,6 @@
 module github.com/marcusteixeira/go-web-course
 
-go 1.15
+go 1.19
 
 require (
 	github.com/codegangsta/negroni v1.0.0
